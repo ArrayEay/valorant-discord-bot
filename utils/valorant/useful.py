@@ -4,7 +4,7 @@ import contextlib
 import json
 import os
 import uuid
-from datetime import UTC, datetime
+from datetime import timezone, datetime
 from typing import TYPE_CHECKING, Any
 
 import discord
